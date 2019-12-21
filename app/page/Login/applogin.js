@@ -64,11 +64,12 @@ export default class OldLoginPage extends Component {
       });
       this.setState({ spinner: false });
     } else {
-      if (password === "admin" || username === "admin") {
+      if (password === "admin" && username === "admin") {
         this.setState({ spinner: false });
         AsyncStorage.setItem("isLogin", "true");
         this.props.navigation.navigate("HomePage");
       } else {
+        this.setState({ spinner: false });
         Toast.show({
           text: "Invalid Login",
           buttonText: "Okay",
@@ -121,7 +122,7 @@ export default class OldLoginPage extends Component {
                       <TextInput
                         placeholder="পাসওয়ার্ড"
                         autoCapitalize="none"
-                        keyboardType="numeric"
+                        keyboardType="default"
                         onChangeText={text => this.setState({ password: text })}
                         secureTextEntry={this.state.hidePassword}
                         value={this.state.password}

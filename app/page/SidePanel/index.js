@@ -42,18 +42,12 @@ export default class DetailsOurSelf extends Component {
                     <ScrollView>
                         <Card>
                             <CardItem>
-                                <Left>
-                                    <Body>
-                                        <Text>আমাদের পরিচিতি</Text>
-                                    </Body>
-                                </Left>
-                                <Right>
-                                    <Button transparent>
-                                        <Text>View</Text>
-                                    </Button>
-                                </Right>
+                                <Text>আমাদের পরিচিতি</Text>
                             </CardItem>
+
+                            
                             <CardItem>
+                                <Text>সাবক্রিপশন: </Text>
                                 <Picker
                                     mode="dropdown"
                                     iosIcon={<Icon name="arrow-down" />}
@@ -70,6 +64,7 @@ export default class DetailsOurSelf extends Component {
                             </CardItem>
 
                             <CardItem>
+                                <Text>বিশেষ প্যাকেজ: </Text>
                                 <Picker
                                     mode="dropdown"
                                     iosIcon={<Icon name="arrow-down" />}
