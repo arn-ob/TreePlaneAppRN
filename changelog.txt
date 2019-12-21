@@ -1,0 +1,70 @@
+
+Changelog-2.0.2 - 2019-10-10
+Version Code : 50
+Student panel with new look
+Overall Introduced user friendly look
+Student profile pic upload
+Improved student profile modification
+Student Class routine introduced
+Student Attendance Report calendar wise
+Student Upcoming Exam
+Student Exam result
+
+Changelog-1.0.40 - 2019-05-22
+Version Code : 15
+Bkash Payment Updated
+
+
+Changelog-1.0.39 - 2019-05-12
+Version Code : 14
+Issue Fixed
+
+Changelog-1.0.38 - 2019-05-12
+Version Code : 12
+Bkash Payment Updated
+
+Changelog-1.0.35 - 2019-05-02
+Version Code : 10
+Added Text and call for special admin and can call and text. 
+Added Exam module to Student and Teacher
+Student now can see the upcoming and past exam. 
+Teacher can submit mark of there enroll student.
+
+
+Changelog-1.0.34 - 2019-04-21
+Version Code : 9
+Added Agent payment. 
+Attandence dashboard show all institute with zero attandence. 
+
+Changelog-1.0.33 - 2019-04-17
+Version Code : 8
+Added to dashboard, special admin now can see absent student. Based on Date and selected class 
+dashboard date selecting bug fixed
+
+Changelog-1.0.32 - 2019-04-15
+Version Code : 7
+Newly added dashboard for high official
+Update attendence (send SMS for Absent & Present Student)
+
+Changelog-1.0.31 - 2019-04-13
+Version Code : 6
+Newly added dashboard for special admin to show all institute attendance Report
+Update School dashboard report
+Update Teacher attendance
+
+Changelog-1.0.29 - 2019-04-08
+Dashboard 
+    Attendance Report
+    Billing Report
+Attendance
+    Attendence Counting
+
+Changelog-1.0.25 - 3019-04-03
+Easy Authentication and Authorization
+Student Attendance,
+Student Billing
+
+
+
+
+
