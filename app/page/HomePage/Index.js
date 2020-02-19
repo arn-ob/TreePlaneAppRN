@@ -31,7 +31,7 @@ export default class HomePage extends Component {
         let PageMenu = [
             {
                 title: 'ছাদ বাগান তৈরি',
-                btn: ''
+                btn: 'RoufTopPage'
             },
             {
                 title: 'ছাদ বাগান মডেল',
@@ -49,10 +49,13 @@ export default class HomePage extends Component {
                 title: 'কল',
                 btn: ''
             },
-
+            {
+                title: 'আমাদের ছাদ বাগানগুলো যেমন হওয়া উচিৎ',
+                btn: 'pictureRoof'
+            },
             {
                 title: 'জৈব কৃষি ',
-                btn: ''
+                btn: 'JoiBOSarPage'
             },
             {
                 title: 'ক্রয় ',
@@ -64,7 +67,7 @@ export default class HomePage extends Component {
             },
             {
                 title: 'ব্লগার ',
-                btn: ''
+                btn: 'BlogPage'
             },
             {
                 title: 'এপ ইনোভেটর এবং ডেভলপার ',
@@ -102,7 +105,9 @@ export default class HomePage extends Component {
                                         </Left>
                                         <Right>
                                             <Button transparent>
-                                                <Text>View</Text>
+                                                <Text onPress={
+                                                    () => this.props.navigation.navigate(item.btn)
+                                                }>View</Text>
                                             </Button>
                                         </Right>
                                     </CardItem>
