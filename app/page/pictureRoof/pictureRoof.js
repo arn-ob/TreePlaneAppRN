@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import {
     Container, Header, Title, Button, Left, Right, Body, Icon, Col, Row, Content, Text, Card, CardItem
 } from "native-base";
-import { ScrollView, Image } from "react-native";
+import { ScrollView, Image, TouchableHighlight } from "react-native";
 import AsyncStorage from '@react-native-community/async-storage';
+
 
 export default class pictureRoof extends Component {
     constructor(props) {
@@ -48,35 +49,45 @@ export default class pictureRoof extends Component {
                 </Header>
                 <Content>
                     <ScrollView>
-                       
-                        <Card>
-                            <CardItem cardBody>
-                                <Image source={require("../../../assets/asd.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+
+                        <Card >
+                            <CardItem cardBody >
+                                <TouchableHighlight style={{ flex: 1 }} onPress={() => this.props.navigation.navigate("CallDetails", { image_name: 1 })}>
+                                    <Image source={require("../../../assets/asd.jpg")} style={{ height: 200, width: null, }} />
+                                </TouchableHighlight>
                             </CardItem>
                         </Card>
 
 
                         <Card>
                             <CardItem cardBody>
-                                <Image source={require( "../../../assets/dfg.jpg")} style={{ height: 200, width: null, flex: 1 }} />
-                            </CardItem>
-                        </Card>
-                        
-                        <Card>
-                            <CardItem cardBody>
-                                <Image source={require("../../../assets/dfgdfg.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                <TouchableHighlight style={{ flex: 1 }} onPress={() => this.props.navigation.navigate("CallDetails", { image_name: 2 })}>
+                                    <Image source={require("../../../assets/dfg.jpg")} style={{ height: 200, width: null, }} />
+                                </TouchableHighlight>
                             </CardItem>
                         </Card>
 
                         <Card>
                             <CardItem cardBody>
-                                <Image source={require("../../../assets/dfgfdg.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                <TouchableHighlight style={{ flex: 1 }} onPress={() => this.props.navigation.navigate("CallDetails", { image_name: 3 })}>
+                                    <Image source={require("../../../assets/dfgdfg.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                </TouchableHighlight>
                             </CardItem>
                         </Card>
 
                         <Card>
                             <CardItem cardBody>
-                                <Image source={require("../../../assets/DFsf.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                <TouchableHighlight style={{ flex: 1 }} onPress={() => this.props.navigation.navigate("CallDetails", { image_name: 4 })}>
+                                    <Image source={require("../../../assets/dfgfdg.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                </TouchableHighlight>
+                            </CardItem>
+                        </Card>
+
+                        <Card>
+                            <CardItem cardBody>
+                                <TouchableHighlight style={{ flex: 1 }} onPress={() => this.props.navigation.navigate("CallDetails", { image_name: 5 })}>
+                                    <Image source={require("../../../assets/DFsf.jpg")} style={{ height: 200, width: null, flex: 1 }} />
+                                </TouchableHighlight>
                             </CardItem>
                         </Card>
                     </ScrollView>

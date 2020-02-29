@@ -9,6 +9,7 @@ import SignUp from './app/page/Signup/index';
 import pictureRoof from './app/page/pictureRoof/pictureRoof'
 import BlogPage from './app/page/BlogPage/BlogPage'
 import JoiBOSarPage from './app/page/JoiBOSarPage/JoiBOSarPage'
+import CallDetails from './app/page/CallDetails/CallDetails'
 
 import RoufTopPage from './app/page/RoufTopPage/RoufTopPage'
 import HomePage from './app/page/HomePage/Index';
@@ -23,6 +24,7 @@ const AppNavigator = createStackNavigator({
     pictureRoof: {screen: pictureRoof},
     BlogPage: {screen: BlogPage},
     JoiBOSarPage: {screen: JoiBOSarPage},
+    CallDetails: {screen: CallDetails}
   },
   {
     initialRouteName: 'AppLogin',
