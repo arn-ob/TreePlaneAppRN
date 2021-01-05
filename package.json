@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
     "@react-native-community/netinfo": "^4.7.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "lodash": "^4.17.15",
     "native-base": "^2.13.8",
     "react": "16.9.0",
